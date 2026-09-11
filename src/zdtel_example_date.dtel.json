@@ -1,0 +1,24 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Date data element",
+    "originalLanguage": "en"
+  },
+  "dataTypeInformation": {
+    "category": "predefinedType",
+    "predefinedType": {
+      "dataType": "DATS",
+      "length": 8
+    }
+  },
+  "fieldLabels": {
+    "short": "Date",
+    "shortLength": 10,
+    "medium": "Example date",
+    "mediumLength": 15,
+    "long": "Example calendar date",
+    "longLength": 25,
+    "heading": "Example Date",
+    "headingLength": 12
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Simple character data element for testing",
+    "originalLanguage": "en"
+  },
+  "dataTypeInformation": {
+    "category": "predefinedType",
+    "predefinedType": {
+      "dataType": "CHAR",
+      "length": 10
+    }
+  },
+  "fieldLabels": {
+    "short": "Text",
+    "shortLength": 10,
+    "medium": "Example text",
+    "mediumLength": 15,
+    "long": "Example character text",
+    "longLength": 25,
+    "heading": "Example Text",
+    "headingLength": 12
+  }
+}

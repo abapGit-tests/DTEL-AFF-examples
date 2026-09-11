@@ -1,0 +1,14 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Variable-length string data element",
+    "originalLanguage": "en"
+  },
+  "dataTypeInformation": {
+    "category": "predefinedType",
+    "predefinedType": {
+      "dataType": "STRING",
+      "length": 0
+    }
+  }
+}

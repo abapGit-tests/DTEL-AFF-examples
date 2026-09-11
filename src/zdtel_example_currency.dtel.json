@@ -1,0 +1,25 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Currency amount data element",
+    "originalLanguage": "en"
+  },
+  "dataTypeInformation": {
+    "category": "predefinedType",
+    "predefinedType": {
+      "dataType": "CURR",
+      "length": 15,
+      "decimals": 2
+    }
+  },
+  "fieldLabels": {
+    "short": "Amount",
+    "shortLength": 10,
+    "medium": "Currency amount",
+    "mediumLength": 20,
+    "long": "Example currency amount",
+    "longLength": 30,
+    "heading": "Amount",
+    "headingLength": 15
+  }
+}

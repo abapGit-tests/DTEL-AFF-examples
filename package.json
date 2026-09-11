@@ -1,0 +1,19 @@
+{
+  "name": "dtel-aff-examples",
+  "version": "1.0.0",
+  "description": "Test repository with DTEL (Data Element) examples in AFF JSON format for testing the abapGit DTEL serializer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abapGit-tests/DTEL-AFF-examples.git"
+  },
+  "keywords": [
+    "abapGit",
+    "AFF",
+    "DTEL",
+    "data-element",
+    "test",
+    "examples"
+  ],
+  "author": "abapGit",
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Reference to predefined type ANY",
+    "originalLanguage": "en"
+  },
+  "dataTypeInformation": {
+    "category": "referenceToPredefinedType",
+    "typeName": "ANY"
+  }
+}

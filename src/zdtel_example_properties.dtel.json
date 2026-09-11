@@ -1,0 +1,35 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Data element with additional properties",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "standard"
+  },
+  "dataTypeInformation": {
+    "category": "predefinedType",
+    "predefinedType": {
+      "dataType": "CHAR",
+      "length": 20
+    }
+  },
+  "fieldLabels": {
+    "short": "Property",
+    "shortLength": 10,
+    "medium": "Property value",
+    "mediumLength": 20,
+    "long": "Example property value",
+    "longLength": 30,
+    "heading": "Property Value",
+    "headingLength": 20
+  },
+  "additionalProperties": {
+    "bidirectionalOptions": {
+      "basicDirection": "rightToLeft",
+      "noFiltering": true
+    },
+    "parameterId": "ZDTEL_EXAMPLE",
+    "defaultComponentName": "VALUE",
+    "changeDocumentRelevant": true,
+    "noInputHistory": true
+  }
+}

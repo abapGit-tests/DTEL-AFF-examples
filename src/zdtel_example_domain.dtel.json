@@ -1,0 +1,21 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Domain-based data element",
+    "originalLanguage": "en"
+  },
+  "dataTypeInformation": {
+    "category": "domain",
+    "typeName": "ZDTEL_EXAMPLE_BASE"
+  },
+  "fieldLabels": {
+    "short": "Domain",
+    "shortLength": 10,
+    "medium": "Domain value",
+    "mediumLength": 15,
+    "long": "Domain-based example value",
+    "longLength": 30,
+    "heading": "Domain Value",
+    "headingLength": 15
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Supporting domain for the DTEL AFF examples",
+    "originalLanguage": "en"
+  },
+  "format": {
+    "dataType": "CHAR",
+    "length": 12
+  },
+  "outputCharacteristics": {
+    "length": 12
+  }
+}
