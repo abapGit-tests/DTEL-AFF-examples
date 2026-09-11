@@ -6,6 +6,9 @@
   },
   "dataTypeInformation": {
     "category": "referenceToPredefinedType",
-    "typeName": "ANY"
+    "predefinedType": {
+      "dataType": "CHAR",
+      "length": 2
+    }
   }
 }
