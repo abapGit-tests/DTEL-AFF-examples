@@ -27,7 +27,6 @@
       "basicDirection": "rightToLeft",
       "noFiltering": true
     },
-    "parameterId": "ZDTEL_EXAMPLE",
     "defaultComponentName": "VALUE",
     "changeDocumentRelevant": true,
     "noInputHistory": true
