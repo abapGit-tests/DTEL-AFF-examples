@@ -17,13 +17,13 @@ This repository contains example DTEL (Data Element) objects in AFF JSON format 
 ### Reference Examples
 
 - **zdtel_example_domain.dtel.json** - Data element based on the included ZDTEL_EXAMPLE_BASE domain
-- **zdtel_example_ref_any.dtel.json** - Reference to the predefined ANY type
+- **zdtel_example_ref_char.dtel.json** - Reference to a predefined type (CHAR, length 2)
 - **zdtel_example_ref_dtel.dtel.json** - Reference to ZDTEL_EXAMPLE_SIMPLE, another data element in this repository
 - **zdtel_example_ref_intf.dtel.json** - Reference to the standard IF_SERIALIZABLE_OBJECT interface
 
 ### Additional Properties
 
-- **zdtel_example_properties.dtel.json** - Field labels, bidirectional options, parameter ID, default component name, change-document relevance, and disabled input history
+- **zdtel_example_properties.dtel.json** - Field labels, bidirectional options, default component name, change-document relevance, and disabled input history
 
 The supporting **zdtel_example_base.doma.json** domain keeps the domain-reference example self-contained.
 
@@ -83,16 +83,27 @@ All DTEL files follow the SAP ABAP File Format v1 specification:
 }
 ```
 
-For reference categories, `dataTypeInformation` uses `typeName` instead of `predefinedType`:
+The `predefinedType` object is only used by the `predefinedType` and `referenceToPredefinedType` categories. The remaining categories name the referenced object with `typeName` instead:
 
 ```json
 {
   "dataTypeInformation": {
-    "category": "domain|referenceToPredefinedType|referenceDictionaryType|referenceClasIntType",
+    "category": "domain|referenceDictionaryType|referenceClasIntType",
     "typeName": "REFERENCED_TYPE"
   }
 }
 ```
+
+## Not Covered Yet
+
+The examples exercise all five `category` values, but the following parts of the schema have no example file yet:
+
+- `additionalProperties.searchHelp` - requires a search help that exists in the target system
+- `additionalProperties.parameterId` - requires a Set/Get parameter ID that exists in TPARA
+- `header.abapLanguageVersion` - every file relies on the `standard` default
+- The boolean properties with value `false`, and `decimals` with an explicit `0`
+- Partial `fieldLabels`, and field labels on the reference-category examples
+- Data types other than CHAR, DATS, CURR and STRING - in particular the ones where the dictionary fixes the length, such as INT4, UTCLONG, FLTP and LANG
 
 ## Related Implementation
 
