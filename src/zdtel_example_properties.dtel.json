@@ -2,8 +2,7 @@
   "formatVersion": "1",
   "header": {
     "description": "Data element with additional properties",
-    "originalLanguage": "en",
-    "abapLanguageVersion": "standard"
+    "originalLanguage": "en"
   },
   "dataTypeInformation": {
     "category": "predefinedType",
